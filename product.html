@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>home page</title>
+	<title>product</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 	<style>
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin:20px; 
+}
+
+#customers td, #customers th {
+    border: 1px solid orange;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#4CAF50 ;
+    color: white;
+}
+
 .button {
     background-color: orange;
     border: none;
@@ -39,11 +63,59 @@
 	 <h4 align="left" style="margin-top:0px "><font color="white"><br>Badarpur CCTV<br> Security System<a href="https://www.facebook.com/RationalSolution/" class="fa fa-facebook"></a><br></font></h4>
 	</div>
 	
-	 <button class="button" style="margin-left:20px; " onclick=""><font size="10">Home</font></button>
+	 <button class="button" style="margin-left:20px; " onclick="location.href='home.html'"><font size="10">Home</font></button>
 	 <button class="button" onclick=""><font size="10">About</font></button>
-	 <button class="button" onclick="location.href='product.html'"><font size="10">Products</font></button>
+	 <button class="button" onclick=""><font size="10">Products</font></button>
 	 <button class="button" onclick=""><font size="10">Gallery</font></button>
 	 <button class="button" onclick=""><font size="10">Contact us</font></button>
+
+<table id="customers">
+  <tr>
+    <th>product name</th>
+    <th>prices</th>
+  </tr>
+  <tr>
+    <td>a</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>b</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>c</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>e</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>f</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>g</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>h</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>i</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>j</td>
+    <td>m</td>
+  </tr>
+</table>
+
 
 	  
 </body>
